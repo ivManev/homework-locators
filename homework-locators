@@ -1,0 +1,66 @@
+http://training.skillo-bg.com:4200/posts/create
+
+1. Locator for Drop an Image container
+CSS: div.uploadfilecontainer
+XPath: //div[contains(@class, "uploadfilecontainer")]
+
+2. Locator for Drop an Image input field
+CSS: div.uploadfilecontainer>input
+XPath: //div[contains(@class, "uploadfilecontainer")]/input
+
+3. Locator for Drop an Image label
+CSS: div.uploadfilecontainer>label
+XPath: //div[contains(@class, "uploadfilecontainer")]/label
+
+4. Locator for Browse button
+CSS: #choose-file
+XPath: //button[@id='choose-file']
+
+5. Locator for Caption input field
+CSS: input[formcontrolname='caption']
+XPath: //input[@formcontrolname="caption"]
+
+6. Locator for Private-public switch
+CSS: #customSwitch2
+XPath: //input[@id='customSwitch2']
+
+7. Locator for Private label
+CSS: div.input-group-addon label:first-child
+XPath: //div[contains(@class, "input-group-addon")]//label[1]
+
+8. Locator for Public label
+CSS: div.input-group-addon label:nth-of-type(2)
+XPath: //div[contains(@class, "input-group-addon")]//label[last()]
+
+9. Locator for Submit button
+CSS: #create-post
+XPath: //button[@id="create-post"]
+
+10. Locator for iSkillo icon button
+CSS: #homeIcon
+XPath: //img[@id='homeIcon']
+
+11. Locator for Home button
+CSS: #nav-link-home
+XPath: //a[@id='nav-link-home']
+
+12. Locator for Profile button
+CSS: #nav-link-profile
+XPath: //a[@id='nav-link-profile']
+
+13. Locator for New post button
+CSS: #nav-link-new-post
+XPath: //a[@id='nav-link-new-post']
+
+14. Locator for Search input bar
+CSS: #search-bar
+XPath: //input[@id='search-bar']
+
+15. Locator for Search button
+CSS: i.fas.fa-search
+XPath: //i[@class='fas fa-search']
+
+16. Locator for Sign-out button
+CSS: i.fas.fa-sign-out-alt
+XPath: //i[@class='fas fa-sign-out-alt fa-lg']
+
